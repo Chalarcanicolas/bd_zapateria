@@ -55,3 +55,14 @@
 `SELECT nombre_articulo FROM articulo WHERE precio_articulo BETWEEN 5000 AND 40000`
 
 ![consulta6](img/6.png)
+
+7. obtener el nombre y el precio en dolares de todos los articulos
+
+8. Calcular el precio promedio de todos los articulos
+
+9. obtener el precio promedio de los articulos cuyo id_fabricante sea fab02
+
+10. obtener el numero de articulos cuyo precio sea mayor igual a 50000
+`SELECT nombre_articulo FROM articulo WHERE precio_articulo >= 60000;`
+
+![consulta10](img/10.png)
