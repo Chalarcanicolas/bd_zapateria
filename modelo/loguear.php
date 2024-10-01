@@ -23,7 +23,8 @@
 
     if($resultado['contar']>0)
     {
-        $_SESSION['username'] = $usuario;
+        $_SESSION['username'] = $resultado['nombre_usuario'];
+        $_SESSION['correo'] = $usuario;
         header("location: ../pagina_principal.php");
     }
     else
